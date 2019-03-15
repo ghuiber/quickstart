@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hey, what&#39;s here?</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Hey, what&#39;s here?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Third Post</title>
+      <link>/post/2018/02/11/my-third-post/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/02/11/my-third-post/</guid>
+      <description>Now trying RMarkdown in Clement. I should still have MathJax (\(\sigma\)). I’m just not sure why some of the css is overridden when I do blogdown::serve_site() instead of hugo serve -D.
+Nope, I was wrong: Blogdown follows my css exactly. OK, now let’s try some in-line R: 2.
+And now let’s try an R block:
+So, I can just start a new post with the New Post add-in in RStudio and just check the R Markdown (.</description>
+    </item>
+    
+  </channel>
+</rss>

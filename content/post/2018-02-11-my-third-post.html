@@ -1,0 +1,17 @@
+---
+title: My Third Post
+author: Gabi Huiber
+date: '2018-02-11'
+slug: my-third-post
+categories:
+  - Clement
+tags: []
+---
+
+
+
+<p>Now trying RMarkdown in Clement. I should still have MathJax (<span class="math inline">\(\sigma\)</span>). I’m just not sure why some of the css is overridden when I do <code>blogdown::serve_site()</code> instead of <code>hugo serve -D</code>.</p>
+<p>Nope, I was wrong: Blogdown follows my css exactly. OK, now let’s try some in-line R: 2.</p>
+<p>And now let’s try an R block:</p>
+<p><img src="/post/2018-02-11-my-third-post_files/figure-html/myBlock-1.svg" width="576" /></p>
+<p>So, I can just start a new post with the New Post add-in in RStudio and just check the R Markdown (.Rmd) radio button and I’m good to go. It’s going to be R Markdown instead of Markdown, and it will render plain html just as well as Markdown would. The advantage is that I am in familiar territory, with in-line R and R code block working as they do in R notebooks. The cost is that there’s a <a href="https://bookdown.org/yihui/blogdown/output-format.html">small speed penalty</a> over plain Markdown. That’s fine.</p>

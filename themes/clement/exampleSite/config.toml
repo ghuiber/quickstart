@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hey, what's here?"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[params]
+    description = "Notes to self about things I pick up for a closer look."
+    footer = "&copy; [Gabi Huiber](https:://ghuiber.netlify.com) 2017 | [Github](https://github.com/ghuiber)"
